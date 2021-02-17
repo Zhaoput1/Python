@@ -17,4 +17,3 @@ def twoSum(nums, tar):
 nums = [2,3,4,5,1,9,7,11]
 tar = 7
 print(twoSum(nums, tar))
- 
