@@ -11,7 +11,7 @@ def reverse(x:int) ->int:
         rev = rev*10 + y%10
         if rev > boundry:
             return 0
-        y//=10
+        y //= 10
     return rev if x > 0 else -rev
 
 test = 2839128
