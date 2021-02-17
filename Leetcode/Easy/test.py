@@ -5,8 +5,5 @@
 # @Author  : Zhaopu Teng
 """
 
-nums = [1,3,4,2]
-hashmap = {}
-for index, num in enumerate(nums):
-    hashmap[num] = index
-print(hashmap)
+
+print(22//4)
