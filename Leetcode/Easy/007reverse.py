@@ -4,9 +4,11 @@
 
 # @Author  : Zhaopu Teng
 """
-def reverse(x:int) ->int:
+def reverse(x:int) -> int:
     y, rev = abs(x), 0
-    boundry = 1<<31 - 1 if x>0 else 1 << 31
+    boundry = 2**31 - 1 if x>0 else 2**31
+    if y > boundry:
+        return 0
     while y != 0:
         rev = rev*10 + y%10
         if rev > boundry:
@@ -14,5 +16,5 @@ def reverse(x:int) ->int:
         y //= 10
     return rev if x > 0 else -rev
 
-test = 2839128
+test = -1563847412
 print(reverse(test))

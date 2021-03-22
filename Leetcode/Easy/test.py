@@ -4,6 +4,12 @@
 
 # @Author  : Zhaopu Teng
 """
+dic = {'I': 1,
+       'V': 5,
+       'X': 10,
+       'L': 50,
+       'C': 100,
+       'D': 500,
+       'M': 1000}
 
-
-print(22//4)
+print(dic['X'])
