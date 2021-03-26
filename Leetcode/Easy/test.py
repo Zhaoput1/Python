@@ -4,8 +4,6 @@
 
 # @Author  : Zhaopu Teng
 """
-
-
-
-
-print(20>>2)
+a = 'Addfs'
+5
+print(4^5^4^3^5)

@@ -11,7 +11,9 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxDepth(self, root: TreeNode) -> int:
-        if not root:
-            return 0
-        return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+    def minDepth(self, root: TreeNode) -> int:
+        if not root: return 0
+        left = self.minDepth(root.left)
+        right = self.minDepth(root.right)
+        return min(left, right) + 1 if root.left and root.right else max(left, right) + 1
+
