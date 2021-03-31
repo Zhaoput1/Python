@@ -25,4 +25,5 @@
 #         return self.__class__.__name__ + " {" + "{}".format(self.gatherAttrs()) + "}"
 
 
-print(52%26 )
+n = int('1010',2)
+print(divmod(56, 10))
