@@ -24,3 +24,19 @@ def permute(nums):
 
 nums = [1, 2, 3, 4]
 print(permute(nums))
+
+# class Solution:
+#     def permute(self, nums: List[int]) -> List[List[int]]:
+#         res = []
+#
+#         def backtrack(path, select):
+#             if not select:
+#                 res.append(path[:])
+#             for i in range(len(select)):
+#                 path.append(select[i])
+#                 backtrack(path, select[:i] + select[i + 1:])
+#                 path.pop()
+#
+#         backtrack([], nums)
+#
+#         return res
