@@ -38,6 +38,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Leetcode/highfre/14_42trap.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Leetcode/highfre/17_25reverseKGroup.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Leetcode/highfre/18_406reconstructQueue.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
